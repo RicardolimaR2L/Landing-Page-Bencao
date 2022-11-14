@@ -1,0 +1,207 @@
+/*ESTOU VERIFICANDO OS TAMANHOS DAS SECÇÕES E ADPTANDO PRA MOBILE */
+/*editar a margem da faixa e alinha o texto do album com as fotos*/
+
+/*ideia que eu ainda nao sei fazer que é cortar a intro do album e colocar pra tocar na hora que entrar no site com fade-in e fade-out  colocar os links do album dentro da secçao abput e colocar as redes dentro do footer  */
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  /*background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-and-white-gradient-metal-texture-background-illustration-materialbackground-image-image_70912.jpg);*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  max-width:100%;
+  width: 90%;
+  height: 100%;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto;
+  color: white;
+  text-transform: uppercase;
+  width:20.1rem;
+  height: auto;
+}
+
+
+header a {
+  text-decoration: none;
+}
+
+header .page-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-family: 'roboto serif';
+}
+
+.page-links {
+  display: flex;
+  gap: 6.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/*main*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+main img {
+  align-items: center;
+  width: 25.1rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+#track-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#track-list h3 {
+  margin-bottom: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+section img {
+  width: 25.1rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#about h3 {
+  color: white;
+  margin-bottom: -2.5rem;
+}
+
+#about p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 30rem;
+  height: 2.5rem;
+  margin-top: 4rem;
+  font-family: 'roboto serif';
+  font-size: small;
+  font-weight: 100;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  height: 5.5rem;
+  margin-top: 1rem;
+  margin-left: -1.95rem;
+  color: white;
+  gap:1rem;
+  text-transform: capitalize;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+}
+
+footer ul a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  margin-left:1.5rem ;
+}
+
+/*animation*/
+
+main img:hover {
+  transform: scale(1.1);
+}
+
+main img {
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+#track-list img:hover {
+  transform: scale(1.1);
+}
+
+#track-list img,
+h3 {
+  opacity: 0;
+  animation: appear 1.5s forwards;
+}
+
+#about h3,
+p {
+  opacity: 0;
+  animation: appear 2s forwards;
+}
+
+footer {
+  opacity: 0;
+  animation: appear 2.5s forwards;
+}
+
+footer ul li:hover {
+  transform: scale(1.3);
+}
+
+
+#about iframe {
+  opacity: 0;
+  animation: appear 3s forwards;
+}
+
+@keyframes appear {
+  0% {
+    transform: translatey(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
