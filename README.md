@@ -1,12 +1,17 @@
-# Landing Page Bênção
+#  Bênção
 
-## Tecnologias Usadas
+## 🚀 Tecnologias
 - Html
 - Css
+## 💻 Projeto
+<p> Nesse projeto fiz uma landing page. utilizei o conceito de mobile first, fiz algumas transições e animações. </p>
 <br>
-<p> Nesse projeto fiz uma landing page simples. utilizei o conceito de mobile first, fiz algumas transições e animações bem básicas.</p>
-<br>
 
-![image](https://user-images.githubusercontent.com/92691384/202358192-a63b5779-c855-4bb1-bbac-f39dc45394d4.png)
+<p align="center">
+  <a href="https://landing-page-bencao.vercel.app/">Deploy Do Projeto</a>
+</p>
 
 
+
+
+![image](https://user-images.githubusercontent.com/92691384/202464479-07d4dcab-d570-41cc-bd09-f7a6fd65f0fb.png)
