@@ -183,11 +183,11 @@ footer ul a {
   font-family: 'roboto serif';
   font-size: small;
   font-weight: 100;
-  margin-left: 1rem
+  margin-left: .5rem
 }
 
 footer p {
-  margin-left: 3.5rem;
+  margin-left: 3rem;
 }
 
 /*animation*/
