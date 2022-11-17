@@ -30,6 +30,8 @@ header {
   text-transform: uppercase;
   width: 35.1rem;
   height: 10rem;
+  max-width: 500px;
+  width: 90%;
 }
 
 header a {
